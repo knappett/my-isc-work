@@ -1,2 +1,2 @@
 # my-isc-work
-Repo for NCAS Intro to Scientific Computing course
+Repository for NCAS Intro to Scientific Computing course
