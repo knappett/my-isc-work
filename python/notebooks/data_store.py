@@ -1,12 +1,12 @@
 # encoding: utf-8
-import statistics
+import statistics    # Common practice to do all imports at the start of a program
 
 class DataStore:
     """
     Store of measurements and times
     """
 
-    def __init__(self):
+    def __init__(self):    # The init method is run when the program is run
         self.times = []
         self.measurements = []
 
@@ -39,7 +39,7 @@ class DataStore:
         # Within the class 'self' is the object and 'measurements' is an attribute of that object
         # Add_measurement and print_measurement, and get_max are methods that can be applied to the object
         # Outside of the class, the object created as an intstance of the class is what is worked upon e.g.
-        # store = DataStore    # Created an instance of DataStore, so store is the object outside whereas self is the object inside
+        # store = DataStore    # Created an instance of DataStore, so 'store' is the object outside whereas 'self' is the object inside
         # store.measurements
         max_meas = max(self.measurements)
         max_time = self.times[self.measurements.index(max_meas)]
